@@ -87,3 +87,26 @@ body{
     height: 120px;
   }
 }
+
+@media (min-width:768px){
+    .contactForm, label{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+  }
+
+    .contactForm, label{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+  }
+
+  input{
+    height: 40px;
+    border-radius: 10px;
+  }
+
+  .brief-msg{
+    height: 120px;
+  }
+}
